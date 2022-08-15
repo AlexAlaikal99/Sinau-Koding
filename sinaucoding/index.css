@@ -1,0 +1,75 @@
+nav{
+    width: 100%;
+    height: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 0px solid;
+}
+a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: navy;
+    text-decoration: dotted;
+    font-weight:bold;
+}
+.satu{
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h {
+    font-size: 20px;
+    color: navy;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+navbar{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+header{
+    width: 100%;
+    margin: 5%;
+}
+* {box-sizing: border-box;}
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#eeeeee;
+}
+span{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: initial;
+}
+.container{
+    margin:5%;
+}
+
+.judul{
+    border: 0px solid;
+    display:grid;
+}
+.paragraf{
+    font-size: 16px;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: normal;
+    text-align: justify;
+    text-transform: lowercase;
+}
+footer{
+    background-color: #111;
+    padding: 1%;
+    color:white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:lighter;
+}
